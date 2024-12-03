@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(153, 185, 212);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards2{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.card{
+    background-color: rgb(93, 93, 255);
+    width: 300px;
+    height: 280px;
+    border-radius: 5%;
+    box-shadow:1px 1px 1px rgb(0 0 0 / 51%);
+}
+
+.card:hover{
+    box-shadow:5px 5px 5px rgb(0 0 0 / 51%);
+}
